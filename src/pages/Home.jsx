@@ -1,6 +1,7 @@
 import react from "react"
 import "@/input.css"
-import { Shield } from "lucide-react";
+
+
 export default function HomePage() {
     return (
         <>
@@ -23,10 +24,10 @@ export default function HomePage() {
                 <h2 className="max-w-[98%] text-[2.5rem] text-center leading-snug font-bold px-4 md:max-w-[80%] text-primary md:text-[3rem] ">Smart Crime & Emergency Detection platform</h2>
 
             <p className="text-gray-500 max-w-[90%] text-[15px] text-center leading-snug md:max-w-[75%] mt-3 ">Real-time monitoring and rapid emergency response for a safer Anambra State. Citzens and security personnel connected through technology.</p>
-
-
             </main>
+            <div id="cards" className="p-3 shadow-2xl grid md:grid-cols-2 ">
 
+            </div>
 
         </>
     )
